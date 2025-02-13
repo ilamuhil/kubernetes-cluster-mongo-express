@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-configmap
+data:
+  database_url: mongo-service
+
+#configMap must be in the cluster before it can be referenced in the mongo-express deployment
