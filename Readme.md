@@ -6,7 +6,7 @@ This project sets up MongoDB and Mongo Express on a Kubernetes cluster using Min
 
 - [Minikube](https://minikube.sigs.k8s.io/docs/start/)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-- Docker
+- [Docker](https://docs.docker.com/)
 
 ## Setup
 
