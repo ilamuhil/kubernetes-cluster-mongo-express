@@ -5,4 +5,5 @@ metadata:
 data:
   database_url: mongo-service
 
+#if we use namespace here then the database_url will have to be updated to mongo-service.namespace_name
 #configMap must be in the cluster before it can be referenced in the mongo-express deployment
